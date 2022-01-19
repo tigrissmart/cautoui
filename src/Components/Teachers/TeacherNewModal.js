@@ -4,7 +4,7 @@ import TeacherNew from "./TeacherNew";
 
 const StudentNewModal = (props) => {
   return (
-    <ModalWrapper title="Student New">
+    <ModalWrapper title="Teacher New">
       <TeacherNew />
     </ModalWrapper>
   );

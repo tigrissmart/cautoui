@@ -2,11 +2,11 @@ import React from "react";
 import ModalWrapper from "../../Libs/ModalWrapper";
 import TeacherEdit from "./TeacherEdit";
 
-const StudentEditModal = (props) => {
+const TeacherEditModal = (props) => {
   return (
-    <ModalWrapper title="Student Edit">
+    <ModalWrapper title="Teacher Edit">
       <TeacherEdit />
     </ModalWrapper>
   );
 };
-export default StudentEditModal;
+export default TeacherEditModal;
