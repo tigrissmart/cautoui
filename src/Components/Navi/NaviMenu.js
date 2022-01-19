@@ -7,6 +7,7 @@ const NaviMenu = () => {
         { key: '1', label: 'Home', path: '/' },
         { key: '2', label: 'Students', path: '/student-list' },
         { key: '3', label: 'Teachers', path: '/teacher-list' },
+        { key: '4', label: 'Courses', path: '/course-list' },
        
        ]
   return (
