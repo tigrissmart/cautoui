@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 const NaviMenu = () => {
     const items = [
         { key: '1', label: 'Home', path: '/' },
-        { key: '3', label: 'Students', path: '/student-list' },
+        { key: '2', label: 'Students', path: '/student-list' },
+        { key: '3', label: 'Teachers', path: '/teacher-list' },
        
        ]
   return (

@@ -4,6 +4,7 @@ import { Layout } from "antd";
 import NaviMenu from "../Components/Navi/NaviMenu";
 import Home from "./Home";
 import StudentList from "../Components/Students/StudentList";
+import TeacherList from "../Components/Teachers/TeacherList";
 import { Routes, Route } from "react-router-dom";
 import ModalManager from "../Libs/ModalManager";
 
@@ -23,6 +24,7 @@ const App = () => {
     <Routes>
         <Route path="/"  element={<Home />}  />
         <Route exact path="/student-list" element={<StudentList/>} />
+        <Route exact path="/teacher-list" element={<TeacherList/>} />
   
     </Routes>
         </div>

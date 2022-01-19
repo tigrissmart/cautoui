@@ -6,7 +6,7 @@ import { Formik } from "formik";
 import StudentForm from "./StudentForm";
 import { useNavigate  } from "react-router-dom";
 
-const NoteEdit = () => {
+const StudentEdit = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate ();
   const student = useSelector((state) => state.studentReducer.currentStudent);
@@ -44,4 +44,4 @@ const NoteEdit = () => {
   );
 };
 
-export default NoteEdit;
+export default StudentEdit;
